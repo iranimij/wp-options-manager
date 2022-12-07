@@ -154,13 +154,3 @@ if ( ! class_exists( 'Wp_Options_Manager' ) ) {
 		}
 	}
 }
-
-/**
- * Helper function
- *
- * @since 1.0.0
- * @return Wp_Options_Manager|null
- */
-function wp_options_manager() {
-	return Wp_Options_Manager::get_instance();
-}
