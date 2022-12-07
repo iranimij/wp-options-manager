@@ -89,6 +89,14 @@ if ( ! class_exists( 'Wp_Options_Manager' ) ) {
 		 * @param string $value The value.
 		 */
 		public function update( $key, $value ) {
+			if ( is_array( $key ) && empty( $value ) ) {
+				$array_value = array_unique( $key );
+
+				self::$options = array_merge( self::$options, $array_value );
+
+				return $this;
+			}
+
 			self::$options[ $key ] = $value;
 
 			return $this;
