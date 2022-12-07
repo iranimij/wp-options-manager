@@ -1,5 +1,7 @@
 <?php
 
+namespace Iranimij\WpOptionsManager;
+
 if ( ! class_exists( 'Wp_Options_Manager' ) ) {
 
 	/**
