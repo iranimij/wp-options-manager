@@ -2,10 +2,12 @@
   "name": "iranimij/wp-options-manager",
   "description": "You can easily manage your plugin's options by this library",
   "type": "library",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "autoload": {
-    "classmap": [ "src/" ]
+    "files": [
+      "src/wp-options-manager.php"
+    ]
   },
   "authors": [
     {
