@@ -1,18 +1,20 @@
 {
-    "name": "iranimij/wp-options-manager",
-    "description": "You can easily manage your plugin's options by this library",
-    "type": "library",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Iranimij\\WpOptionsManager\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "iranimij",
-            "email": "iranimij@gmail.com"
-        }
-    ],
-    "require": {}
+  "name": "iranimij/wp-options-manager",
+  "description": "You can easily manage your plugin's options by this library",
+  "type": "library",
+  "version": "1.0.0",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Iranimij\\WpOptionsManager\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "iranimij",
+      "email": "iranimij@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {}
 }
