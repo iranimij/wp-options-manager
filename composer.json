@@ -5,9 +5,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "autoload": {
-    "psr-4": {
-      "Iranimij\\WpOptionsManager\\": "src/"
-    }
+    "classmap": [ "" ]
   },
   "authors": [
     {
