@@ -11,7 +11,7 @@ composer require deliciousbrains/wp-background-processing
 ```php
 wp_options_manager()->update( 'test-option-key', 'test-option-value' )->save(); // Updating an option
 
-wp_options_manager()->update( 'test-option-key', 'test-option-value' )->update( 'test-option-key2', 'test-option-value2' )->save(); // Updating an option
+wp_options_manager()->update( 'test-option-key', 'test-option-value' )->update( 'test-option-key2', 'test-option-value2' )->save(); // Updating two options in a row
 
 wp_options_manager()->select( 'test-option-key' ); // Getting an option => Output = 'test-option-value
 //'
