@@ -15,6 +15,13 @@ wp_options_manager()->update( 'test-option-key', 'test-option-value' )->save();
 // Updating two options in a row
 wp_options_manager()->update( 'test-option-key', 'test-option-value' )->update( 'test-option-key2', 'test-option-value2' )->save();
 
+// Updating multiple keys in just one array
+wp_options_manager()->update( [
+    'first-key' => 'first-value',
+    'second-key' => 'second-value',
+    'third-key' => 'third-value',
+] )->save();
+
 // Getting an option => Output = 'test-option-value
 wp_options_manager()->select( 'test-option-key' );
 
