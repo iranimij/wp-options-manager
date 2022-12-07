@@ -9,13 +9,17 @@ composer require deliciousbrains/wp-background-processing
 ### How to use this library
 
 ```php
-wp_options_manager()->update( 'test-option-key', 'test-option-value' )->save(); // Updating an option
+// Updating an option
+wp_options_manager()->update( 'test-option-key', 'test-option-value' )->save();
 
-wp_options_manager()->update( 'test-option-key', 'test-option-value' )->update( 'test-option-key2', 'test-option-value2' )->save(); // Updating two options in a row
+// Updating two options in a row
+wp_options_manager()->update( 'test-option-key', 'test-option-value' )->update( 'test-option-key2', 'test-option-value2' )->save();
 
-wp_options_manager()->select( 'test-option-key' ); // Getting an option => Output = 'test-option-value
-//'
-wp_options_manager()->delete( 'test-option-key' ); // Deleting an option => Output = 'test-option-value'
+// Getting an option => Output = 'test-option-value
+wp_options_manager()->select( 'test-option-key' );
+
+// Deleting an option => Output = 'test-option-value'
+wp_options_manager()->delete( 'test-option-key' );
 ```
 
 ### Where can we find the data in the database
