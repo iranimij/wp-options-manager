@@ -88,7 +88,7 @@ if ( ! class_exists( 'Wp_Options_Manager' ) ) {
 		 * @param string $key The key.
 		 * @param string $value The value.
 		 */
-		public function update( $key, $value ) {
+		public function update( $key, $value = '' ) {
 			if ( is_array( $key ) && empty( $value ) ) {
 				$array_value = array_unique( $key );
 
