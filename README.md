@@ -3,7 +3,7 @@ With this library you can easily manage your plugin's options, with the best and
 ### How to install the library
 The recommended way to install this library in your project is by loading it through Composer:
 ```php
-composer require deliciousbrains/wp-background-processing
+composer require iranimij/wp-options-manager
 ```
 
 ### How to use this library
