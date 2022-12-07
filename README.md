@@ -18,7 +18,7 @@ wp_options_manager()->update( 'test-option-key', 'test-option-value' )->update( 
 // Getting an option => Output = 'test-option-value
 wp_options_manager()->select( 'test-option-key' );
 
-// Deleting an option => Output = 'test-option-value'
+// Deleting an option
 wp_options_manager()->delete( 'test-option-key' );
 ```
 
