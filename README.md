@@ -1,4 +1,4 @@
-With this library you can easily manage your plugin's options, with the best and efficient way.
+With this library, you can easily manage your plugin's options, in the best and most efficient way.
 
 ### How to install the library
 The recommended way to install this library in your project is by loading it through Composer:
